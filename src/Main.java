@@ -18,7 +18,7 @@ public class Main {
         int opcion= 0;
         Scanner entrada = new Scanner(System.in);
 
-        while(opcion != 6){
+        while(true){
             System.out.println("-------- PROGRAMA INICIADO  ------");
             System.out.println("Seleccionar una opcion:");
             System.out.println("1. Encender programa");
