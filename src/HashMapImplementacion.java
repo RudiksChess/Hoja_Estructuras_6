@@ -1,0 +1,31 @@
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class HashMapImplementacion <K,V>  implements IMap<K,V> {
+    IMap<K, List<V>> map = (IMap<K, List<V>>) new HashMap<K, List<V>>();
+
+    /**
+     * @return el tamaño del HashMap
+     */
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    /**
+     * @param stra un elemento que se quiere meter al HashMap
+     */
+    @Override
+    public void put(K stra) {
+
+    }
+
+    /**
+     * @param stra un elemento que se ubicar en el HashMap por medio de un key.
+     */
+    @Override
+    public void get(V stra) {
+
+    }
+}
